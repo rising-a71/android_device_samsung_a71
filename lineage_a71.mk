@@ -17,6 +17,15 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A715
 PRODUCT_MANUFACTURER := samsung
 
+# RisingOS flags
+RISING_MAINTAINER := whystarlix
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := false
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Qualcomm Snapdragon 730" \
+    RISING_MAINTAINER="whystarlix"
+
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
